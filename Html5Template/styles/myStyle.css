@@ -1,0 +1,116 @@
+body {
+    direction: rtl;
+    background-image: url('../images/backgroundOpacity.png');
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    font-size: 100px;
+    color: #fce5c3;
+    font-family: 'Segoe UI';
+    margin-top: 20px;
+}
+
+
+
+ img {
+     width: 80px;
+     height: 80px;
+     padding:5px;
+ }
+
+#container {
+    font-family: 'Segoe UI';
+    color: navy;
+    text-align: center;
+    position: relative;
+}
+
+#icon1 .work {
+    position: relative;
+    bottom: 30px;
+    left: 0px;
+    visibility: hidden;
+    margin: 30px;
+    font-size: 30px;
+}
+#icon2 .education {
+    position: relative;
+    bottom: 30px;
+    left: 0px;
+    visibility: hidden;
+    margin: 30px;
+    font-size: 20px;
+}
+#icon3 .habits {
+    position: relative;
+    bottom: 30px;
+    left: 0px;
+    visibility: hidden;
+    margin: 30px;
+    font-size: 20px;
+}
+
+
+
+
+#icon1 {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    padding: 40px;
+    margin: 40px;
+    margin-top: 20px;
+    background-color: #edecdfbf; 
+    border-radius: 130px;
+}
+
+#icon2 {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    padding: 40px;
+    margin: 40px;
+    background-color: #edecdfbf;
+    border-radius: 130px;
+}
+
+#icon3 {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    padding: 40px;
+    margin: 40px;
+    background-color: #edecdfbf;
+    border-radius: 130px;
+}
+
+#icon1:hover .work {
+    visibility: visible;
+}
+
+#icon2:hover .education {
+    visibility: visible;
+}
+
+#icon3:hover .habits {
+    visibility: visible;
+}
+
+.category {
+    padding-top: 10px;
+}
+
+div #icon1 {
+    position: relative;
+    bottom: 90px
+}
+div #icon2, #icon3 {
+    position: relative;
+    bottom: 20px
+}
+
+.contact {
+   position: relative;
+   bottom: 80px
+}
