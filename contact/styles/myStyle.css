@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#container {
+    background-image: url('../images/background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Segoe UI Light;
+    background-color: lightcyan;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font: bold 100px Segoe UI Light;
+    padding-top: 500px;
+}
+
+h2 {
+    text-align: center;
+    font: bold 60px Segoe UI Light;
+}
+
+.p1 {
+    font-family: Segoe UI Light;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 130px;
+}
+
+p {
+    font-family: Segoe UI Light;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+
+.p1 a {
+    text-decoration: none;
+    color: navy;
+    font: bold 80px Segoe UI Light;
+}
+
+img {
+    width: 480px;
+    padding: 10px;
+
+}
+
+img {
+    display: inline-block;
+
+}
+
+.Hit {
+    width: 150px;
+}
+
+form {
+    text-align: center;
+    background-color: #d4dae5;
+    width: 400px;
+    height: 350px;
+    font-family: Segoe UI Light;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #f8f9fb;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    text-align: right;
+}
+
+.form {
+    background-color: #f8f9fb;
+
+}
+
+.p2 {
+    display: inline-block;
+    text-align: right;
+    margin-left: 500px;
+}
